@@ -1,0 +1,10 @@
+result := 1; 
+n := 0;
+read n;
+if 0 < n then
+    repeat 
+        result := result * n;
+        n := n - 1 
+    until n < 1; 
+    write result
+end

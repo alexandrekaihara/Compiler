@@ -1,0 +1,14 @@
+a := 0;      
+b := 1;
+c := 0;
+maxvalue := 1;
+read maxvalue;
+if maxvalue > 0 then
+  repeat  
+    write a;
+    c := a + b;
+    a := b;
+    b := c;
+    maxvalue := maxvalue - 1
+  until maxvalue > 0
+end

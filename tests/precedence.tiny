@@ -1,0 +1,14 @@
+a := 0;
+b := 0;
+c := 0;
+d := 0;
+read a;
+read b;
+read c;
+read d;
+write ((a + b) + c) + d;
+write ((a + b) - c) - d;
+write ((a + b) - c) - d;
+write (a - (b + c));
+write (a + b) - (c + d);
+write (a * b) / (c - d)

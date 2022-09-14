@@ -1,0 +1,7 @@
+age := 0;
+current_year := 0;
+read age;
+read current_year;
+birth_year := 0;
+birth_year := current_year - age;
+write birth_year

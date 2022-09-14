@@ -1,0 +1,9 @@
+a := 0;
+b := 0;
+read a;
+read b;
+if a < b then
+  write a
+else
+  write b
+end
